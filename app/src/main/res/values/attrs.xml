@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="mycustom">
+        <attr name="upBtnText" format="string"/>
+        <attr name="downBtnText" format="string"/>
+    </declare-styleable>
+</resources>
