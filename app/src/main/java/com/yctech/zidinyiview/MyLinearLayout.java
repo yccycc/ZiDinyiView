@@ -16,7 +16,7 @@ public class MyLinearLayout extends LinearLayout{
     private LayoutParams downBtnlayoutParams;
     public MyLinearLayout(Context context, AttributeSet attrs) {
         super(context, attrs);
-        setOrientation(LinearLayout.VERTICAL);
+        setOrientation(LinearLayout.HORIZONTAL);
         upBtn = new Button(context);
         downBtn = new Button(context);
         TypedArray typedArray = context.obtainStyledAttributes(attrs,R.styleable.mycustom);
@@ -25,10 +25,10 @@ public class MyLinearLayout extends LinearLayout{
         downBtnText = typedArray.getString(R.styleable.mycustom_downBtnText);
         downBtn.setText(downBtnText);
         downBtnText = typedArray.getString(R.styleable.mycustom_downBtnText);
-        upBtnlayoutParams = new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,200);
-        upBtnlayoutParams.topMargin=30;
+        upBtnlayoutParams = new LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,60);
+        //upBtnlayoutParams.topMargin=30;
         addView(upBtn,upBtnlayoutParams);
-        downBtnlayoutParams = new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,60);
+        downBtnlayoutParams = new LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,60);
         addView(downBtn,downBtnlayoutParams);
     }
 }

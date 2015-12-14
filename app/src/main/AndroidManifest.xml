@@ -8,7 +8,19 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="sex"
+            android:value="shemale"/>
         <activity android:name=".MainActivity" >
+            <meta-data
+                android:name="xing"
+                android:value="nana"/>
+            <meta-data
+                android:name="xing1"
+                android:value="nans"/>
+            <meta-data
+                android:name="xing2"
+                android:value="nand"/>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

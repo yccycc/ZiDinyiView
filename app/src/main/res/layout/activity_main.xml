@@ -9,8 +9,8 @@
 
    <com.yctech.zidinyiview.MyLinearLayout
        android:layout_width="match_parent"
-       mycustom:upBtnText="uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu"
-       mycustom:downBtnText="dddddddddddddddddddddd"
+       mycustom:upBtnText="合体头"
+       mycustom:downBtnText="合体尾"
        android:layout_height="match_parent">
    </com.yctech.zidinyiview.MyLinearLayout>
 </RelativeLayout>
